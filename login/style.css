@@ -1,0 +1,45 @@
+    body {
+      background-image: url('https://export-download.canva.com/VJmJs/DAGuATVJmJs/3/0/0001-1876222042037922517.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250723%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250723T165830Z&X-Amz-Expires=7160&X-Amz-Signature=0548e2b886dd026f506a46aa9f876c2a9c7b776a86432d7a211e7929fcdc541e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Untitled%2520design.png&response-expires=Wed%2C%2023%20Jul%202025%2018%3A57%3A50%20GMT'); /* Replace with your GIF's URL or path */
+      background-size: cover; /* Make the GIF cover the entire area */
+      background-repeat: no-repeat; /* Prevent the GIF from repeating */
+      background-position: center center; /* Center the GIF */
+      height: 100vh; /* Make the background fill the viewport height */
+      margin: 0; /* Reset default body margin */
+}
+
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: rgba(67, 73, 79, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(10, 9, 9, 0.1);
+}
+
+.login-container input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #efeff9;
+  color: white;
+}
+
+.login-container button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #1a08a0;
+  color: rgb(246, 242, 242);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background: #150e81;
+}
